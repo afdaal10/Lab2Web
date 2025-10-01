@@ -1,12 +1,12 @@
 # Praktikum 2 - CSS Dasar
 
-## 📌 Deskripsi
+##  Deskripsi
 Praktikum ini membahas dasar-dasar penggunaan **CSS (Cascading Style Sheets)** pada dokumen HTML.  
 Tujuannya adalah memahami tiga cara penggunaan CSS (**inline, internal, eksternal**) serta mengenal selector (**tag, id, class**).  
 
 ##  Struktur Folder
 
-## ✨ Langkah Praktikum
+##  Langkah Praktikum
 1. Membuat file `lab2_css_dasar.html` dengan CSS internal & inline.  
 2. Membuat file `style_eksternal.css` berisi aturan CSS.  
 3. Membuat file `lab2_css_eksternal.html` untuk memanggil CSS eksternal.  
