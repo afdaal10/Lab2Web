@@ -1,3 +1,16 @@
+# Identitas Mahasiswa
+
+**Nama :** Afdhal Agislam  
+**NIM :** 312410445  
+**Kelas :** TI.24.A5  
+
+---
+
+## HASIL OUTPUT
+
+<img width="959" height="539" alt="image" src=Tampilan akhir.png />
+
+
 # Praktikum 2 - CSS Dasar
 
 ##  Deskripsi
