@@ -24,6 +24,7 @@
 Praktikum ini membahas dasar-dasar penggunaan **CSS (Cascading Style Sheets)** pada dokumen HTML.  
 Tujuannya adalah memahami tiga cara penggunaan CSS (**inline, internal, eksternal**) serta mengenal selector (**tag, id, class**).  
 
+
 ## Penjelasan kode: `lab2_css_dasar.html`
 
 ### Gambaran Umum
