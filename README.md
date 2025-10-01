@@ -6,7 +6,7 @@
 
 ---
 
-## 📷 Screenshot
+##  Screenshot
 
 ### Tampilan Awal
 ![Gambar2](Gambar2.png)
@@ -61,13 +61,6 @@ Tujuannya adalah memahami tiga cara penggunaan CSS (**inline, internal, eksterna
 - ID (`#id`) lebih spesifik dan lebih kuat dibanding class (`.class`).  
 - Jadi, aturan CSS dengan id akan dipakai jika ada konflik dengan aturan class.  
 
-##  Screenshot
-
-### Tampilan CSS Internal
-![Tampilan CSS Internal](screenshots/internal.png)
-
-### Tampilan CSS Eksternal
-![Tampilan CSS Eksternal](screenshots/eksternal.png)
 
 
 ##  Kesimpulan
