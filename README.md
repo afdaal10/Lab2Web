@@ -13,15 +13,23 @@ Tujuannya adalah memahami tiga cara penggunaan CSS (**inline, internal, eksterna
 4. Menguji cascade & prioritas CSS (inline > id > class > elemen).  
 5. Validasi CSS dengan [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-## 📝 Jawaban Pertanyaan
+##  Jawaban Pertanyaan
 - **Perbedaan `h1` dengan `#intro h1`** → `h1` berlaku untuk semua `<h1>`, sedangkan `#intro h1` hanya untuk `<h1>` di dalam elemen dengan id `intro`.  
 - **Urutan prioritas CSS** → Inline > Internal > Eksternal.  
 - **ID vs Class** → ID lebih kuat daripada class.  
 
-## 📷 Screenshot
-(sisipkan hasil screenshot tampilan web di sini)
+##  Screenshot
 
-## ✅ Kesimpulan
+### Tampilan CSS Internal
+![Tampilan CSS Internal](Tampilan akhir.png)
+
+### Tampilan CSS Eksternal
+![Tampilan CSS Eksternal](screenshots/eksternal.png)
+
+### Contoh Inline CSS
+![Inline CSS](screenshots/inline.png)
+
+##  Kesimpulan
 - CSS bisa ditulis dengan cara inline, internal, dan eksternal.  
 - CSS eksternal lebih rapi dan direkomendasikan.  
 - Cascade & specificity penting untuk mengatur prioritas styling.
