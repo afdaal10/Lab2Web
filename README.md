@@ -21,7 +21,8 @@ Tujuannya adalah memahami tiga cara penggunaan CSS (**inline, internal, eksterna
 ##  Screenshot
 
 ### Tampilan CSS Internal
-![Tampilan CSS Internal](Tampilan akhir.png)
+![Tampilan CSS Internal](Tampilan awal.png)
+
 
 ### Tampilan CSS Eksternal
 ![Tampilan CSS Internal](Tampilan akhir.png)
