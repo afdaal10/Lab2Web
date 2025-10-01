@@ -8,14 +8,11 @@
 
 ## 📷 Screenshot
 
+### Tampilan Awal
+![Gambar2](Gambar2.png)
+
 ### Tampilan Akhir
 ![Gambar1](Gambar1.png)
-
-### Tampilan Awal
-![Tampilan Awal](tampilan_awal.png)
-
-### Tampilan Code
-![Tampilan Code](tampilan_code.png)
 
 
 
