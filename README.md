@@ -6,11 +6,17 @@
 
 ---
 
-## Screenshot
+## 📷 Screenshot
 
-![Tampilan Akhir](tampilan_akhir.png)
+### Tampilan Akhir
+![Gambar1](Gambar1.png)
+
+### Tampilan Awal
 ![Tampilan Awal](tampilan_awal.png)
+
+### Tampilan Code
 ![Tampilan Code](tampilan_code.png)
+
 
 
 # Praktikum 2 - CSS Dasar
