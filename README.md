@@ -18,17 +18,6 @@ Tujuannya adalah memahami tiga cara penggunaan CSS (**inline, internal, eksterna
 - **Urutan prioritas CSS** → Inline > Internal > Eksternal.  
 - **ID vs Class** → ID lebih kuat daripada class.  
 
-##  Screenshot
-
-### Tampilan CSS Internal
-![Tampilan CSS Internal](Tampilan awal.png)
-
-
-### Tampilan CSS Eksternal
-![Tampilan CSS Internal](Tampilan akhir.png)
-
-### Contoh Inline CSS
-![Inline CSS](screenshots/inline.png)
 
 ##  Kesimpulan
 - CSS bisa ditulis dengan cara inline, internal, dan eksternal.  
