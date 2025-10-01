@@ -9,7 +9,8 @@
 ## Screenshot
 
 ### Tampilan Akhir Praktikum
-![Tampilan Akhir](Tampilan_akhir.png)
+![Tampilan Akhir](screenshots/tampilan_akhir.png)
+
 
 # Praktikum 2 - CSS Dasar
 
