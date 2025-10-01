@@ -6,17 +6,26 @@ Tujuannya adalah memahami tiga cara penggunaan CSS (**inline, internal, eksterna
 
 ##  Struktur Folder
 
-##  Langkah Praktikum
-1. Membuat file `lab2_css_dasar.html` dengan CSS internal & inline.  
-2. Membuat file `style_eksternal.css` berisi aturan CSS.  
-3. Membuat file `lab2_css_eksternal.html` untuk memanggil CSS eksternal.  
-4. Menguji cascade & prioritas CSS (inline > id > class > elemen).  
-5. Validasi CSS dengan [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-##  Jawaban Pertanyaan
-- **Perbedaan `h1` dengan `#intro h1`** → `h1` berlaku untuk semua `<h1>`, sedangkan `#intro h1` hanya untuk `<h1>` di dalam elemen dengan id `intro`.  
-- **Urutan prioritas CSS** → Inline > Internal > Eksternal.  
-- **ID vs Class** → ID lebih kuat daripada class.  
+---
+
+## Penjelasan Kode
+
+### 1. Struktur Dasar HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head> ... </head>
+<body> ... </body>
+</html>
+<style>
+  body { ... }
+  header { ... }
+  nav { ... }
+  #intro { ... }
+  .button { ... }
+  footer { ... }
+</style>
 
 
 ##  Kesimpulan
