@@ -5,6 +5,7 @@
 **Kelas :** TI.24.A5  
 
 ---
+# Praktikum 2 - CSS Dasar
 
 ##  Screenshot
 
@@ -15,8 +16,6 @@
 ![Gambar1](Gambar1.png)
 
 
-
-# Praktikum 2 - CSS Dasar
 
 ##  Deskripsi
 Praktikum ini membahas dasar-dasar penggunaan **CSS (Cascading Style Sheets)** pada dokumen HTML.  
