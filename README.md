@@ -6,10 +6,10 @@
 
 ---
 
-## HASIL OUTPUT
+## Screenshot
 
-<img width="959" height="539" alt="image" src=Tampilan akhir.png />
-
+### Tampilan Akhir Praktikum
+![Tampilan Akhir](Tampilan_akhir.png)
 
 # Praktikum 2 - CSS Dasar
 
