@@ -21,143 +21,60 @@
 Praktikum ini membahas dasar-dasar penggunaan **CSS (Cascading Style Sheets)** pada dokumen HTML.  
 Tujuannya adalah memahami tiga cara penggunaan CSS (**inline, internal, eksternal**) serta mengenal selector (**tag, id, class**).  
 
-##  Struktur Folder
+## Penjelasan kode: `lab2_css_dasar.html`
 
-## Penjelasan Code
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CSS Dasar</title>
+### Gambaran Umum
+File `lab2_css_dasar.html` adalah contoh halaman HTML yang digunakan untuk praktik CSS dasar.  
+Pada file ini dipraktikkan 3 cara penulisan CSS:  
+- **Internal CSS** → di dalam tag `<style>` pada `<head>`.  
+- **Inline CSS** → langsung pada atribut `style` di elemen.  
+- **Selector** → menggunakan elemen (`h1`), id (`#intro`), dan class (`.button`).  
 
-  <!-- Internal CSS (praktikum meminta menambahkan CSS internal) -->
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f5f8fb;
-      color: #222;
-    }
+Halaman terdiri dari `header`, `nav`, `konten intro`, contoh inline CSS, dan `footer`.
 
-    header {
-      min-height: 80px;
-      border-bottom: 1px solid #77CCEF;
-      background: #ffffff;
-    }
+---
 
-    h1 {
-      font-size: 24px;
-      color: #0F189F;
-      text-align: center;
-      padding: 20px 10px;
-      margin: 0;
-    }
+### Struktur File
+- `<!DOCTYPE html>` → mendefinisikan dokumen sebagai HTML5.  
+- `<head>` → berisi metadata, judul, dan internal CSS.  
+- `<body>` → berisi konten tampilan (header, navigasi, konten intro, section, footer).  
 
-    h1 i {
-      color: #6d6a6b;
-      font-style: italic;
-    }
+---
 
-    nav {
-      background: #20A759;
-      color: #fff;
-      padding: 10px;
-      display: flex;
-      gap: 10px;
-    }
+### CSS Internal
+Beberapa aturan penting:
+- **`body`** → font, margin, padding, background, warna teks dasar.  
+- **`header`** → tinggi minimum, border bawah, warna background.  
+- **`h1` & `h1 i`** → ukuran, warna, align, style italic.  
+- **`nav` & `nav a`** → bar navigasi dengan background hijau, padding, efek hover, dan link aktif.  
+- **`#intro`** → ID selector untuk area utama, background biru, border, padding, border-radius.  
+- **`.button` & `.btn-primary`** → class selector untuk tombol. `.btn-primary` memberi warna merah khusus.  
+- **`footer`** → teks rata tengah, ukuran font kecil, warna abu-abu.  
 
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 4px;
-    }
+---
 
-    nav .active,
-    nav a:hover {
-      background: #0B6B3A;
-    }
+### Konten Body
+- **Header**: judul halaman.  
+- **Navigasi (`nav`)**: link antar halaman (`CSS Dasar`, `CSS Eksternal`, `HTML Dasar`). Link aktif diberi class `active`.  
+- **Intro (`#intro`)**: berisi `h1`, paragraf, dan tombol (`a` dengan class `button btn-primary`).  
+- **Inline CSS**: paragraf dengan atribut `style="text-align: center; color: #ccd8e4;"`.  
+- **Footer**: informasi praktikum, nama, NIM.  
 
-    /* ID selector */
-    #intro {
-      background: #418fb1;
-      border: 1px solid #099249;
-      min-height: 100px;
-      padding: 10px;
-      color: #fff;
-      margin: 16px;
-      border-radius: 6px;
-    }
+---
 
-    #intro h1 {
-      text-align: left;
-      margin-top: 0;
-      color: #fff;
-    }
+### Konsep Penting
+- **Selector elemen vs ID vs Class**:  
+  - `h1` = semua heading `<h1>`.  
+  - `#intro` = elemen dengan id `intro`.  
+  - `.button` = semua elemen yang memakai class `button`.  
+- **Cascade & Specificity (Prioritas CSS)**:  
+  Urutannya → Inline > ID > Class > Elemen (kecuali ada `!important`).  
+- **Internal vs External vs Inline**:  
+  - Internal → CSS ditaruh di `<style>`.  
+  - External → CSS dipisah di file `.css`.  
+  - Inline → CSS langsung pada elemen HTML.  
 
-    /* Class selector */
-    .button {
-      padding: 15px 20px;
-      background: #bebcbd;
-      color: #fff;
-      display: inline-block;
-      margin: 10px 5px 0 0;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-
-    .btn-primary {
-      background: #E42A42;
-    }
-
-    /* Footer simple */
-    footer {
-      text-align: center;
-      padding: 12px;
-      font-size: 13px;
-      color: #555;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>CSS Internal dan <i>Inline CSS</i></h1>
-  </header>
-
-  <nav>
-    <a href="lab2_css_dasar.html" class="active">CSS Dasar</a>
-    <a href="lab2_css_eksternal.html">CSS Eksternal</a>
-    <a href="lab1_tag_dasar.html">HTML Dasar</a>
-  </nav>
-
-  <!-- CSS ID Selector -->
-  <div id="intro">
-    <h1>Hello World</h1>
-    <p>
-      Kami sedang belajar HTML dan CSS dasar, pada mata kuliah
-      <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama
-      yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal
-      tag-tag dasar HTML dan CSS.
-    </p>
-
-    <!-- CSS Class Selector -->
-    <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
-  </div>
-
-  <!-- contoh inline CSS -->
-  <section style="margin: 16px;">
-    <p style="text-align: center; color: #ccd8e4;">
-      Contoh paragraf dengan <b>inline CSS</b>.
-    </p>
-  </section>
-
-  <footer>
-   Praktikum 2 - CSS Dasar | Nama: [Afdhal Agislam] | NIM: [312410445]
-</body>
-</html>
-
+---
 
 ##  Langkah Praktikum
 1. **Membuat file `lab2_css_dasar.html`**  
